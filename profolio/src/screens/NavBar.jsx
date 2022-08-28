@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, NavLink, Bars, NavMenu, NavBtn} from './NavElements'
+import { Nav, NavLink, Bars, NavMenu } from './NavElements'
 
 export default function NavBar() {
   
@@ -24,7 +24,6 @@ export default function NavBar() {
           Contact Us
           </NavLink>
           <NavLink to="/" activestyle="true">
-          Signout
           </NavLink>
         </NavMenu>
      </Nav>
