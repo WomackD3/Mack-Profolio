@@ -1,20 +1,21 @@
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Home from './screens/Home.jsx'
-import NavBar from './screens/NavBar'
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
+import About from "./components/About"
 
 
 function App() {
   return (
-    <>
-      <h2>Wassup Mack</h2>
-      <NavBar />
-
-      <Routes>
-        <Route path="/Home" element={<Home />} />
-      </Routes>
-
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
+    </div>
   );
 }
 
